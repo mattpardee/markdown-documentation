@@ -1,5 +1,5 @@
 const assert = require('assert');
-const subject = require('../index');
+const subject = require('../../index');
 const _ = require('lodash');
 
 describe('FileStrategy', () => {
