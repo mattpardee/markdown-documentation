@@ -1,0 +1,31 @@
+{
+  "name": "markdown-documentation",
+  "version": "0.0.1",
+  "description": "load a markdown file from GitHub or via file reference and convert it into HTML along with a table of contents",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattpardee/markdown-documentation.git"
+  },
+  "keywords": ["markdown", "documentation", "github", "file"],
+  "author": "Matt Pardee <matt.pardee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattpardee/markdown-documentation/issues"
+  },
+  "homepage": "https://github.com/mattpardee/markdown-documentation#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "github": "^9.2.0",
+    "highlight.js": "^9.10.0",
+    "lodash": "^4.17.4",
+    "marked": "^0.3.6",
+    "striptags": "^3.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
