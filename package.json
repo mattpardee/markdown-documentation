@@ -1,6 +1,6 @@
 {
   "name": "markdown-documentation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "load a markdown file from GitHub or via file reference and convert it into HTML along with a table of contents",
   "main": "index.js",
   "repository": {
